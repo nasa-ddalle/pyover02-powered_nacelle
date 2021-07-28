@@ -43,11 +43,13 @@ fnames = [
     "common_powered/grid.in",
     "common_powered/xrays.in",
     "common_powered/Config.xml",
+    "common_powered/fomo/grid.bnd",
     "common_powered/fomo/grid.ib",
     "common_powered/fomo/grid.ibi",
     "common_powered/fomo/grid.i.tri",
     "common_powered/fomo/grid.map",
     "common_powered/fomo/grid.nsf",
+    "common_powered/fomo/grid.ptv",
     "common_powered/fomo/mixsur.fmp",
     "common_powered/fomo/mixsur.inp"
 ]

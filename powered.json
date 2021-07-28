@@ -52,9 +52,9 @@
         "PhaseIters":    [600, 1400],
         // Operation modes
         "Prefix": "run",
-        "MPI": true,
+        "MPI": false,
         "qsub": false,
-        "Resubmit": [false, true],
+        "Resubmit": false,
         "Continue": true,
         "mpicmd": null,
         "nProc": 8,
@@ -65,7 +65,7 @@
 
         // OVERFLOW command-line interface
         "overrun": {
-            "cmd": "overrunmpi",
+            "cmd": "overrun",
             "aux": null
         }
     },

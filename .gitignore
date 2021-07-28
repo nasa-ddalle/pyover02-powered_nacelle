@@ -6,6 +6,12 @@
 *.asv
 *.swp
 
+# Python files
+*.py[oc]
+__pycache__
+
 # Working folder
 work
+powered
+flowthrough
 
