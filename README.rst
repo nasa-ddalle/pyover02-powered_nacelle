@@ -353,12 +353,12 @@ as the history of the L2 norm of the residual of the mean-flow quantities.
     .. table:: Convergence plots for the m0.75 case
 
         +-----------------------------+-----------------------------+
-        |.. image:: force_CA.*        |.. image:: force_CAzoom1.*   |
+        |.. image:: force_CA.png      |.. image:: force_CAzoom1.png |
         |     :width: 3.2in           |     :width: 3.2in           |
         |                             |                             |
         |TOTAL FORCE/*CA*             |TOTAL FORCE/*CA*             |
         +-----------------------------+-----------------------------+
-        |.. image:: force_CAzoom2.*   |.. image:: L2.*              |
+        |.. image:: force_CAzoom2.png |.. image:: L2.png            |
         |     :width: 3.2in           |     :width: 3.2in           |
         |                             |                             |
         |TOTAL FORCE/*CA*             |*L2* Residual                |
@@ -598,13 +598,13 @@ cases:
           Case name: 'powered/m0.8_test01' (index 0)
              Starting case 'powered/m0.8_test01'
          > overrunmpi -np 8 run 01
-             (PWD = '/u/wk/serogers/usr/cape/examples/pyover/02_powered_nacelle/powered/m0.8_test01')
+             (PWD = 'powered/m0.8_test01')
              (STDOUT = 'overrun.out')
            Wall time used: 0.00 hrs (phase 0)
            Wall time used: 0.00 hrs
            Previous phase: 0.00 hrs
          > overrunmpi -np 8 run 02
-             (PWD = '/u/wk/serogers/usr/cape/examples/pyover/02_powered_nacelle/powered/m0.8_test01')
+             (PWD = 'powered/m0.8_test01')
              (STDOUT = 'overrun.out')
            Wall time used: 0.00 hrs (phase 1)
         1    powered/m0.8_test02   ---     /           .            
@@ -612,13 +612,13 @@ cases:
           Case name: 'powered/m0.8_test02' (index 1)
              Starting case 'powered/m0.8_test02'
          > overrunmpi -np 8 run 01
-             (PWD = '/u/wk/serogers/usr/cape/examples/pyover/02_powered_nacelle/powered/m0.8_test02')
+             (PWD = 'powered/m0.8_test02')
              (STDOUT = 'overrun.out')
            Wall time used: 0.00 hrs (phase 0)
            Wall time used: 0.00 hrs
            Previous phase: 0.00 hrs
          > overrunmpi -np 8 run 02
-             (PWD = '/u/wk/serogers/usr/cape/examples/pyover/02_powered_nacelle/powered/m0.8_test02')
+             (PWD = 'powered/m0.8_test02')
              (STDOUT = 'overrun.out')
            Wall time used: 0.00 hrs (phase 1)
         2    powered/m0.8_test03   ---     /           .            
@@ -626,13 +626,13 @@ cases:
           Case name: 'powered/m0.8_test03' (index 2)
              Starting case 'powered/m0.8_test03'
          > overrunmpi -np 8 run 01
-             (PWD = '/u/wk/serogers/usr/cape/examples/pyover/02_powered_nacelle/powered/m0.8_test03')
+             (PWD = 'powered/m0.8_test03')
              (STDOUT = 'overrun.out')
            Wall time used: 0.00 hrs (phase 0)
            Wall time used: 0.01 hrs
            Previous phase: 0.00 hrs
          > overrunmpi -np 8 run 02
-             (PWD = '/u/wk/serogers/usr/cape/examples/pyover/02_powered_nacelle/powered/m0.8_test03')
+             (PWD = 'powered/m0.8_test03')
              (STDOUT = 'overrun.out')
            Wall time used: 0.00 hrs (phase 1)
         
@@ -661,22 +661,22 @@ each of the three case are shown here.
     .. _tab-pyover-nacelle-03:
     .. table:: Convergence plots for *INLET* and *EXIT* axial force
 
-        +-----------------------------+-----------------------------+
-        |.. image:: test01_inlet_CA.* |.. image:: test01_exit_CA.*  |
-        |     :width: 3.2in           |     :width: 3.2in           |
-        |                             |                             |
-        |INLET/*CA* *test01*          |EXIT/*CA* *test01*           |
-        +-----------------------------+-----------------------------+
-        |.. image:: test02_inlet_CA.* |.. image:: test02_exit_CA.*  |
-        |     :width: 3.2in           |     :width: 3.2in           |
-        |                             |                             |
-        |INLET/*CA* *test02*          |EXIT/*CA* *test02*           |
-        +-----------------------------+-----------------------------+
-        |.. image:: test03_inlet_CA.* |.. image:: test03_exit_CA.*  |
-        |     :width: 3.2in           |     :width: 3.2in           |
-        |                             |                             |
-        |INLET/*CA* *test03*          |EXIT/*CA* *test03*           |
-        +-----------------------------+-----------------------------+
+        +-------------------------------+-------------------------------+
+        |.. image:: test01_inlet_CA.png |.. image:: test01_exit_CA.png  |
+        |     :width: 3.2in             |     :width: 3.2in             |
+        |                               |                               |
+        |INLET/*CA* *test01*            |EXIT/*CA* *test01*             |
+        +-------------------------------+-------------------------------+
+        |.. image:: test02_inlet_CA.png |.. image:: test02_exit_CA.png  |
+        |     :width: 3.2in             |     :width: 3.2in             |
+        |                               |                               |
+        |INLET/*CA* *test02*            |EXIT/*CA* *test02*             |
+        +-------------------------------+-------------------------------+
+        |.. image:: test03_inlet_CA.png |.. image:: test03_exit_CA.png  |
+        |     :width: 3.2in             |     :width: 3.2in             |
+        |                               |                               |
+        |INLET/*CA* *test03*            |EXIT/*CA* *test03*             |
+        +-------------------------------+-------------------------------+
 
 
 The report also includes *MachSlice* subfigures. Each case shows the Mach
