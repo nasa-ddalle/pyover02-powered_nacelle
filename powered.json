@@ -140,7 +140,7 @@
         // Reference values
         "RefArea": [105.60, 3.2615],
         "RefLength": [108.0, 13.67],
-        # Special coordinates
+        // Special coordinates
         "Points": {
             "MAC_MRP": [295.422, 0.0, 0.0],
             "NAC_MRP": [365.167, 0.0, 0.0]

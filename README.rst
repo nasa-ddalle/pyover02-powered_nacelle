@@ -23,7 +23,7 @@ working folder so that it's easy to reset. Just run the following command:
 
     .. code-block:: console
 
-        $ ./copy_files.py
+        $ python3 copy_files.py
         $ cd work/
 
 This example shows how to use pyOver for a test case with two related
