@@ -57,7 +57,7 @@
         "Resubmit": [false, true],
         "Continue": true,
         "mpicmd": null,
-        "nProc": 8,
+        "nProc": 0.5,
         // Dictionary of environment variables
         "Environ": {
             "F_UFMTENDIAN": "little"
@@ -378,7 +378,7 @@
             // InletBC
             "InletBC": {
                 "Type": "CaseFunction",
-                "Function": "self.bcnacelle.ApplyInletBC",
+                "Function": "bcnacelle.ApplyInletBC",
                 "Value": "float",
                 "Label": true,
                 "Format": "%05.3f_",
@@ -388,7 +388,7 @@
             // ExitBC
             "ExitBC": {
                 "Type": "CaseFunction",
-                "Function": "self.bcnacelle.ApplyExitBC",
+                "Function": "bcnacelle.ApplyExitBC",
                 "Value": "float",
                 "Label": true,
                 "Format": "%05.3f",
