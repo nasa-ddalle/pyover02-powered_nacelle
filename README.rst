@@ -572,12 +572,8 @@ can be used customize certain behaviors at the beginning of a pyover run. The
             # Get the specified label
             lbl = cntl.x['Label'][i]
             # Set the overflow input file as a function of the Label
-            if 'test01' in lbl:
-                cntl.opts['OverNamelist'] = 'common_powered/overflow_test01.inp'
-            elif 'test02' in lbl:
-                cntl.opts['OverNamelist'] = 'common_powered/overflow_test02.inp'
-            elif 'test03' in lbl:
-                cntl.opts['OverNamelist'] = 'common_powered/overflow_test03.inp'
+            inpfile = f"common_powered/overflow_{lbl}.inp"
+            cntl.opts["OverNamelist"] = inpfile
 
 
 Executing pyover
